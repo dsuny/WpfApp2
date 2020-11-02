@@ -6,11 +6,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
+
 namespace Atomus.WpfApp2.ViewModel
 {
     public class MainWindowViewModel : MVVM.ViewModel
     {
-        private string userID;
+        private string userID;//주석
         private string password;
         private string email;
         private List<MainWindowViewModel> list;
